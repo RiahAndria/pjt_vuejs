@@ -1,24 +1,24 @@
-# 🚀 Projet Gestion Enseignants - VueJS 3 & PHP / PostgreSQL
+# Projet Gestion Enseignants - VueJS 3 & PHP / PostgreSQL
 
 Bienvenue dans le dépôt du projet ! Ce document fait le point sur l'avancement actuel de l'application et explique la marche à suivre pour installer et faire tourner le projet sur ta machine afin qu'on puisse développer ensemble.
 
 ---
 
-## 📊 État actuel du projet
+## État actuel du projet
 
-### 🎨 Front-End (Vue.js 3 / Vite)
+### Front-End (Vue.js 3 / Vite)
 * **Connexion / Inscription (`LoginView.vue`) :** **OK** (Formulaire fonctionnel, bascule fluide, validations HTML/JS en temps réel, notifications Toasts animées en bas à gauche sans alertes natives).
 * **Accueil (`AccueilView.vue`) :** **OK** (Structure en place avec menu de déconnexion et modale de confirmation, mais **quelques ajustements visuels et finitions restent à faire**).
-* **Les 3 pages principales (Ajout, Liste, Bilan) :** ⏳ **À faire**. Les bases, les routes et les fichiers de vues sont créés, mais le contenu reste à développer.
+* **Les 3 pages principales (Ajout, Liste, Bilan) :** **À faire**. Les bases, les routes et les fichiers de vues sont créés, mais le contenu reste à développer.
 
-### ⚙️ Back-End (PHP 8 & PostgreSQL)
+### Back-End (PHP 8 & PostgreSQL)
 * **Authentification (`apis/validation.php`) :** **OK** (Vérification des données, hachage sécurisé des mots de passe, connexion automatique après inscription, renvoi des réponses au format JSON propre).
 * **Base de données (`apis/config/db.php`) :** **OK** (Connexion PDO PostgreSQL fonctionnelle). *Note : Tu devras simplement modifier le mot de passe pour mettre le tien.*
-* **Autres fichiers d'API :** ⏳ **À faire**. Les dossiers et l'arborescence sont prêts à accueillir tes futurs scripts PHP pour la gestion des enseignants.
+* **Autres fichiers d'API :** **À faire**. Les dossiers et l'arborescence sont prêts à accueillir tes futurs scripts PHP pour la gestion des enseignants.
 
 ---
 
-## 🛠️ Procédure d'installation (Pour ton PC)
+## Procédure d'installation (Pour ton PC)
 
 Suis précisément ces étapes pour recréer l'environnement de développement sur ta machine :
 
